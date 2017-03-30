@@ -13,8 +13,8 @@ public class MedianMain {
         float [] output = new float [num_of_commands];
         Median median = new Median(num_of_commands);
         for (int i = 0; i < num_of_commands; i++) {
-            int in = scanner.nextInt();
-           output[i] = median.returnMedianOnInsert(in);
+            //int in = scanner.nextInt();
+           output[i] = median.returnMedianOnInsert(i);
         }
         System.out.println(Arrays.toString(output));
     }

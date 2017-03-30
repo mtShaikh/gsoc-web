@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cca8e1f4-355c-4083-bea3-321ea1c2d64b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Median/Median.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Median/MedianMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/median/MedianTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Node.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Queue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/QueueMain.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Node.java" afterPath="$PROJECT_DIR$/src/main/java/Queue/Node.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Queue.java" afterPath="$PROJECT_DIR$/src/main/java/Queue/Queue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/QueueMain.java" afterPath="$PROJECT_DIR$/src/main/java/Queue/QueueMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/QueueTest.java" afterPath="$PROJECT_DIR$/src/test/java/Queue/QueueTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Median/MedianMain.java" afterPath="$PROJECT_DIR$/src/main/java/Median/MedianMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/median/MedianTest.java" afterPath="$PROJECT_DIR$/src/test/java/median/MedianTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,8 +70,8 @@
       <file leaf-file-name="MedianTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/median/MedianTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="178">
+              <caret line="48" column="34" lean-forward="false" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,8 +82,8 @@
       <file leaf-file-name="Median.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Median/Median.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="49" column="52" lean-forward="false" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+            <state relative-caret-position="-460">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -101,8 +92,8 @@
       <file leaf-file-name="MedianMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Median/MedianMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="216">
+              <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,8 +140,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Queue/Queue.java" />
         <option value="$PROJECT_DIR$/src/main/java/Queue/QueueMain.java" />
         <option value="$PROJECT_DIR$/src/test/java/Queue/QueueTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Median/MedianMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/Median/Median.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Median/MedianMain.java" />
         <option value="$PROJECT_DIR$/src/test/java/median/MedianTest.java" />
       </list>
     </option>
@@ -651,8 +642,8 @@
     <history-entry file="MedianTest - 2017.03.30 at 02h 48m 53s.xml">
       <configuration name="MedianTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2017.03.29 at 22h 01m 56s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="MedianTest - 2017.03.31 at 01h 34m 57s.xml">
+      <configuration name="MedianTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Tests - 2017.03.29 at 22h 05m 39s.xml">
       <configuration name="Tests" configurationId="JUnit" />
@@ -923,28 +914,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Median/Median.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Median/MedianMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="216">
+          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Median/Median.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="49" column="52" lean-forward="false" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/median/MedianTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="178">
+          <caret line="48" column="34" lean-forward="false" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
