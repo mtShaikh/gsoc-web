@@ -7,15 +7,25 @@ The example below we will have 10 commands: 1 42 → put 42 in the list, 2 → p
 
 #### Sample Input
 10
+
 1 42
+
 2
+
 1 14
+
 3
+
 1 28
+
 3
+
 1 60
+
 1 78
+
 2
+
 2
 
 ## How to input in Running Median
