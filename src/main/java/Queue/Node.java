@@ -1,3 +1,5 @@
+package Queue;
+
 /**
  * Created by taha on 3/28/17.
  */
@@ -13,7 +15,7 @@ public class Node<T> {
     }
 
     public String printNode() {
-        String result  = data.toString() + " ";
+        String result  = data.toString();
         return result;
     }
 }

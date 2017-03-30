@@ -1,4 +1,7 @@
+package Queue;
+
 import org.junit.Test;
+
 import static org.junit.Assert.*;
 /**
  * Created by taha on 3/29/17.
@@ -17,15 +20,16 @@ public class QueueTest {
         Queue<String> q = new Queue<String>();
         String message = "hello";
         q.enqueue(message);
-        assertEquals(q.dequeue(), message);
+        assertEquals(q.dequeue().data, message);
     }
 
     @Test
     public void testEnqueueThenPeek() {
         Queue<Integer> q = new Queue<Integer>();
-        q.enqueue(45);
+        Integer in = 45;
+        q.enqueue(in);
         int size = q.size();
-        assertEquals(q.peek(), 45);
+        assertEquals(q.peek(), in.toString());
         assertEquals(q.size(), size);
     }
 
@@ -36,7 +40,8 @@ public class QueueTest {
             q.enqueue(i);
         }
         for (int i = 0; i < 50; i++) {
-            assertEquals(q.dequeue(), i);
+            Integer in = i;
+            assertEquals(q.dequeue().data, in);
         }
     }
 
@@ -53,12 +58,5 @@ public class QueueTest {
         assertTrue(q.isEmpty());
         assertEquals(q.size(), 0);
     }
-    @Test
-    public void testRemoveOnEmptyQueue() {
-        Queue<Integer> q = new Queue<Integer>();
-        assertTrue(q.isEmpty());
-        q.dequeue();
-    }
-
 
 }

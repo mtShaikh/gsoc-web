@@ -1,8 +1,11 @@
+package Queue;
+
 /**
  * Created by taha on 3/27/17.
  */
 public class Queue<T> {
     private Node<T> head;
+    private Node<T> tail;
     public Queue(){
         head = null;
     }
@@ -10,7 +13,7 @@ public class Queue<T> {
         return head == null;
     }
     public void enqueue(T data){
-        Node <T> link = new Node<T>(data);
+        Node<T> link = new Node<T>(data);
         Node current = head;
         if(this.isEmpty()){
             head = link;
@@ -24,8 +27,12 @@ public class Queue<T> {
     }
 
     public Node<T> dequeue(){
+        if(isEmpty()){
+            System.out.println("Queue already empty");
+            return null;
+        }
         Node dequeued = head;
-        head = head.nextLink;
+            head = head.nextLink;
         return dequeued;
     }
 
