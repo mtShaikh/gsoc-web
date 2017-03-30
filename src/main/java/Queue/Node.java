@@ -1,7 +1,8 @@
 package Queue;
 
 /**
- * Created by taha on 3/28/17.
+ * Node Class used in the Queue
+ * Created by taha.
  */
 public class Node<T> {
     public T data;

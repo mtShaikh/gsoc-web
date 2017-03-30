@@ -4,7 +4,8 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Created by taha on 3/29/17.
+ * Main file for RunningMedian
+ * Created by taha.
  */
 public class MedianMain {
     public static void main(String[] args) {

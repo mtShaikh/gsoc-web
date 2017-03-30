@@ -1,17 +1,19 @@
 package Queue;
 
 /**
- * Created by taha on 3/27/17.
+ * Implemetation of Queue using a linked list
+ * Created by taha
  */
 public class Queue<T> {
     private Node<T> head;
-    private Node<T> tail;
+
     public Queue(){
         head = null;
     }
     public boolean isEmpty() {
         return head == null;
     }
+
     public void enqueue(T data){
         Node<T> link = new Node<T>(data);
         Node current = head;
@@ -19,6 +21,7 @@ public class Queue<T> {
             head = link;
         }
         else {
+            //traverse to last node-->tail and insert
             while(current.nextLink != null){
                 current = current.nextLink;
             }

@@ -4,7 +4,8 @@ package Queue;
 import java.util.Scanner;
 
 /**
- * Created by taha on 3/28/17.
+ * main file for Queue
+ * Created by taha
  */
 public class QueueMain {
     public static void main(String[] args) {

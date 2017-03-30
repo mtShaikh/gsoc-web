@@ -4,7 +4,8 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 /**
- * Created by taha on 3/29/17.
+ * Test file for Queue
+ * Created by taha.
  */
 public class QueueTest {
 
